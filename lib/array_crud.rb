@@ -8,24 +8,40 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+<<<<<<< HEAD
   array << "arrays!"
+=======
+  create_an_array << ("arrays!")
+>>>>>>> 762be113202450e3ad177c7b50bfacf9acf28993
   
   
   
 end
 
 def add_element_to_start_of_array(array, element)
+<<<<<<< HEAD
   array.unshift "wow"
+=======
+  create_an_array.unshift ("wow")
+>>>>>>> 762be113202450e3ad177c7b50bfacf9acf28993
   
 end
 
 def remove_element_from_end_of_array(array)
+<<<<<<< HEAD
  array.pop
+=======
+ array =  create_an_array.pop
+>>>>>>> 762be113202450e3ad177c7b50bfacf9acf28993
   
 end
 
 def remove_element_from_start_of_array(array)
+<<<<<<< HEAD
   array.shift
+=======
+  wow = create_an_array.shift
+>>>>>>> 762be113202450e3ad177c7b50bfacf9acf28993
 end
 
 def retrieve_element_from_index(array, index_number)
